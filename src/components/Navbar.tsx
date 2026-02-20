@@ -19,8 +19,8 @@ const navLinks = [
   {
     label: 'Developers',
     children: [
-      { label: 'API Reference', href: 'https://github.com/qubicDB/docs/blob/main/API.md', desc: 'Full REST + MCP + config documentation' },
-      { label: 'OpenAPI Spec', href: 'https://github.com/qubicDB/qubicdb/blob/main/openapi.yaml', desc: 'Machine-readable API contract' },
+      { label: 'API Reference', href: 'https://qubicdb.github.io/docs/', desc: 'Full REST + MCP + config documentation — Swagger UI' },
+      { label: 'OpenAPI Spec', href: 'https://qubicdb.github.io/docs/', desc: 'Interactive API explorer — try every endpoint live' },
       { label: 'CLI (qubicdb-cli)', href: 'https://github.com/qubicDB/qubicdb/tree/main/cmd/qubicdb-cli', desc: 'Interactive REPL — psql/redis-cli style' },
       { label: 'Methodology', href: '#methodology', desc: 'Engram neurons, Hebbian learning, fractal clustering, emotional mapping' },
       { label: 'SDKs', href: '#opensource', desc: 'TypeScript, JavaScript, Python, Go' },
@@ -39,7 +39,7 @@ const navLinks = [
 ]
 
 const directLinks = [
-  { label: 'API Docs', href: 'https://github.com/qubicDB/docs/blob/main/API.md' },
+  { label: 'API Docs', href: 'https://qubicdb.github.io/docs/' },
   { label: 'GitHub', href: 'https://github.com/qubicDB/qubicdb' },
 ]
 
