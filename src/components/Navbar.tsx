@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown, Github, Brain } from 'lucide-react'
 
@@ -67,7 +68,7 @@ export default function Navbar() {
     >
       <nav className="container-custom flex items-center justify-between h-16">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2.5 group">
+        <Link href="/" className="flex items-center gap-2.5 group">
           <div className="relative w-8 h-8 flex items-center justify-center">
             <div className="absolute inset-0 bg-brand-500/20 rounded-lg blur-sm group-hover:bg-brand-500/30 transition-all" />
             <Brain className="w-5 h-5 text-brand-400 relative z-10" />
@@ -75,7 +76,7 @@ export default function Navbar() {
           <span className="text-lg font-bold text-white tracking-tight">
             qubic<span className="text-brand-400">DB</span>
           </span>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-1">
@@ -190,9 +191,9 @@ export default function Navbar() {
                 </div>
               ))}
               <div className="border-t border-zinc-800 pt-4 flex flex-col gap-2">
-                <a href="/docs" className="btn-primary text-sm justify-center">
+                <Link href="/docs" className="btn-primary text-sm justify-center">
                   Run locally
-                </a>
+                </Link>
                 <a href="#opensource" className="btn-secondary text-sm justify-center">
                   Open source
                 </a>
