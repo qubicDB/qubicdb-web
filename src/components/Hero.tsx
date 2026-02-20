@@ -69,7 +69,7 @@ export default function Hero() {
             Explore the architecture
             <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
           </a>
-          <a href="https://github.com/denizumutdereli/qubicdb" className="btn-secondary text-base !px-8 !py-3.5">
+          <a href="https://github.com/qubicDB/qubicdb" className="btn-secondary text-base !px-8 !py-3.5">
             View on GitHub
           </a>
         </motion.div>

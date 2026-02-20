@@ -27,27 +27,27 @@ const footerSections = [
     title: 'Developers',
     links: [
       { label: 'Documentation', href: '/docs' },
-      { label: 'API Reference', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/docs/API.md' },
-      { label: 'OpenAPI Spec', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/openapi.yaml' },
-      { label: 'CLI (qubicdb-cli)', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/cmd/qubicdb-cli' },
-      { label: 'SDKs', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/sdks' },
-      { label: 'Contributing', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/CONTRIBUTING.md' },
+      { label: 'API Reference', href: 'https://github.com/qubicDB/docs/blob/main/API.md' },
+      { label: 'OpenAPI Spec', href: 'https://github.com/qubicDB/qubicdb/blob/main/openapi.yaml' },
+      { label: 'CLI (qubicdb-cli)', href: 'https://github.com/qubicDB/qubicdb/tree/main/cmd/qubicdb-cli' },
+      { label: 'SDKs', href: 'https://github.com/qubicDB/qubicdb/tree/main/sdks' },
+      { label: 'Contributing', href: 'https://github.com/qubicDB/qubicdb/blob/main/CONTRIBUTING.md' },
     ],
   },
   {
     title: 'Community',
     links: [
-      { label: 'GitHub', href: 'https://github.com/denizumutdereli/qubicdb' },
-      { label: 'Issues', href: 'https://github.com/denizumutdereli/qubicdb/issues' },
-      { label: 'Discussions', href: 'https://github.com/denizumutdereli/qubicdb/discussions' },
-      { label: 'License (MIT)', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/LICENSE' },
+      { label: 'GitHub', href: 'https://github.com/qubicDB/qubicdb' },
+      { label: 'Issues', href: 'https://github.com/qubicDB/qubicdb/issues' },
+      { label: 'Discussions', href: 'https://github.com/qubicDB/qubicdb/discussions' },
+      { label: 'License (MIT)', href: 'https://github.com/qubicDB/qubicdb/blob/main/LICENSE' },
     ],
   },
 ]
 
 const socialLinks = [
-  { label: 'GitHub', href: 'https://github.com/denizumutdereli/qubicdb', icon: 'GH' },
-  { label: 'Issues', href: 'https://github.com/denizumutdereli/qubicdb/issues', icon: '!' },
+  { label: 'GitHub', href: 'https://github.com/qubicDB/qubicdb', icon: 'GH' },
+  { label: 'Issues', href: 'https://github.com/qubicDB/qubicdb/issues', icon: '!' },
 ]
 
 export default function Footer() {
@@ -116,8 +116,8 @@ export default function Footer() {
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
               Self-hosted
             </span>
-            <a href="https://github.com/denizumutdereli/qubicdb/blob/main/LICENSE" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">MIT License</a>
-            <a href="https://github.com/denizumutdereli/qubicdb" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">Contribute</a>
+            <a href="https://github.com/qubicDB/qubicdb/blob/main/LICENSE" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">MIT License</a>
+            <a href="https://github.com/qubicDB/qubicdb" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">Contribute</a>
           </div>
         </div>
       </div>

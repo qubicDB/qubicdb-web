@@ -19,9 +19,9 @@ const navLinks = [
   {
     label: 'Developers',
     children: [
-      { label: 'API Reference', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/docs/API.md', desc: 'Full REST + MCP + config documentation' },
-      { label: 'OpenAPI Spec', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/openapi.yaml', desc: 'Machine-readable API contract' },
-      { label: 'CLI (qubicdb-cli)', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/cmd/qubicdb-cli', desc: 'Interactive REPL — psql/redis-cli style' },
+      { label: 'API Reference', href: 'https://github.com/qubicDB/docs/blob/main/API.md', desc: 'Full REST + MCP + config documentation' },
+      { label: 'OpenAPI Spec', href: 'https://github.com/qubicDB/qubicdb/blob/main/openapi.yaml', desc: 'Machine-readable API contract' },
+      { label: 'CLI (qubicdb-cli)', href: 'https://github.com/qubicDB/qubicdb/tree/main/cmd/qubicdb-cli', desc: 'Interactive REPL — psql/redis-cli style' },
       { label: 'Methodology', href: '#methodology', desc: 'Engram neurons, Hebbian learning, fractal clustering, emotional mapping' },
       { label: 'SDKs', href: '#opensource', desc: 'TypeScript, JavaScript, Python, Go' },
       { label: 'Benchmarks', href: '#benchmarks', desc: 'Real numbers on Apple M3 arm64' },
@@ -39,8 +39,8 @@ const navLinks = [
 ]
 
 const directLinks = [
-  { label: 'API Docs', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/docs/API.md' },
-  { label: 'GitHub', href: 'https://github.com/denizumutdereli/qubicdb' },
+  { label: 'API Docs', href: 'https://github.com/qubicDB/docs/blob/main/API.md' },
+  { label: 'GitHub', href: 'https://github.com/qubicDB/qubicdb' },
 ]
 
 export default function Navbar() {
@@ -136,7 +136,7 @@ export default function Navbar() {
         {/* Desktop Actions */}
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="https://github.com/denizumutdereli/qubicdb"
+            href="https://github.com/qubicDB/qubicdb"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-3 py-1.5 text-sm text-zinc-400 hover:text-white border border-zinc-800 rounded-lg hover:border-zinc-700 transition-all"
@@ -148,7 +148,7 @@ export default function Navbar() {
             Open source
           </a>
           <a
-            href="https://github.com/denizumutdereli/qubicdb#quickstart"
+            href="https://github.com/qubicDB/qubicdb#quickstart"
             className="btn-primary text-sm !px-4 !py-2"
           >
             Get started

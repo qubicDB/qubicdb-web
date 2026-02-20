@@ -126,7 +126,7 @@ export default function DocsPage() {
                 </div>
 
                 <a
-                  href="https://github.com/denizumutdereli/qubicdb/blob/main/docs/API.md"
+                  href="https://github.com/qubicDB/docs/blob/main/API.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-brand-400 hover:text-brand-300 transition-colors"
@@ -167,17 +167,17 @@ export default function DocsPage() {
           {/* Quick links */}
           <AnimatedSection delay={0.2}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
-              <a href="https://github.com/denizumutdereli/qubicdb/blob/main/docs/API.md" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
+              <a href="https://github.com/qubicDB/docs/blob/main/API.md" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
                 <BookOpen className="w-5 h-5 text-zinc-500 mb-3 group-hover:text-brand-400 transition-colors" />
                 <h3 className="text-sm font-semibold text-white mb-1">API Reference</h3>
                 <p className="text-xs text-zinc-500">Full REST + MCP + config docs — all endpoints, parameters, error codes.</p>
               </a>
-              <a href="https://github.com/denizumutdereli/qubicdb/blob/main/openapi.yaml" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
+              <a href="https://github.com/qubicDB/qubicdb/blob/main/openapi.yaml" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
                 <Code className="w-5 h-5 text-zinc-500 mb-3 group-hover:text-brand-400 transition-colors" />
                 <h3 className="text-sm font-semibold text-white mb-1">OpenAPI Spec</h3>
                 <p className="text-xs text-zinc-500">Machine-readable contract — import into Postman, Insomnia, or Swagger UI.</p>
               </a>
-              <a href="https://github.com/denizumutdereli/qubicdb/tree/main/cmd/qubicdb-cli" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
+              <a href="https://github.com/qubicDB/qubicdb/tree/main/cmd/qubicdb-cli" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
                 <Terminal className="w-5 h-5 text-zinc-500 mb-3 group-hover:text-brand-400 transition-colors" />
                 <h3 className="text-sm font-semibold text-white mb-1">CLI (qubicdb-cli)</h3>
                 <p className="text-xs text-zinc-500">Interactive REPL shell — psql/redis-cli style admin + brain ops.</p>
@@ -209,7 +209,7 @@ docker run -p 6060:6060 \\
   qubicdb/qubicdb
 
 # Or build from source
-git clone https://github.com/denizumutdereli/qubicdb
+git clone https://github.com/qubicDB/qubicdb
 cd qubicdb/qubicdb
 go build -o qubicdb ./cmd/qubicdb/
 ./qubicdb --admin --admin-password secret`}

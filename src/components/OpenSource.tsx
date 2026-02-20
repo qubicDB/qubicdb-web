@@ -7,24 +7,24 @@ const repos = [
   {
     name: 'qubicdb/qubicdb',
     desc: 'Core server — Go, REST API, MCP, CLI, persistence, daemons',
-    href: 'https://github.com/denizumutdereli/qubicdb',
+    href: 'https://github.com/qubicDB/qubicdb',
     lang: 'Go',
     langColor: 'bg-sky-400',
   },
   {
     name: 'qubicdb/qubicdb-ui',
     desc: 'Admin dashboard — React + Vite + TailwindCSS',
-    href: 'https://github.com/denizumutdereli/qubicdb',
+    href: 'https://github.com/qubicDB/qubicdb',
     lang: 'TypeScript',
     langColor: 'bg-blue-400',
   },
 ]
 
 const sdks = [
-  { name: 'TypeScript', pkg: 'qubicdb', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/sdks/typescript' },
-  { name: 'JavaScript', pkg: 'qubicdb-js', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/sdks/javascript' },
-  { name: 'Python', pkg: 'qubicdb', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/sdks/python' },
-  { name: 'Go', pkg: 'qubicdb-go', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/sdks/golang' },
+  { name: 'TypeScript', pkg: 'qubicdb', href: 'https://github.com/qubicDB/sdks/tree/main/typescript' },
+  { name: 'JavaScript', pkg: 'qubicdb-js', href: 'https://github.com/qubicDB/sdks/tree/main/javascript' },
+  { name: 'Python', pkg: 'qubicdb', href: 'https://github.com/qubicDB/sdks/tree/main/python' },
+  { name: 'Go', pkg: 'qubicdb-go', href: 'https://github.com/qubicDB/sdks/tree/main/golang' },
 ]
 
 const quickstart = `# Pull and run
@@ -34,7 +34,7 @@ docker run -p 6060:6060 \\
   qubicdb/qubicdb
 
 # Or build from source
-git clone https://github.com/denizumutdereli/qubicdb
+git clone https://github.com/qubicDB/qubicdb
 cd qubicdb && go build ./cmd/qubicdb/`
 
 export default function OpenSource() {
@@ -140,10 +140,10 @@ export default function OpenSource() {
                   <span className="text-sm font-semibold text-zinc-300">Resources</span>
                 </div>
                 {[
-                  { label: 'API Reference', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/docs/API.md', desc: 'Full REST + MCP + config docs' },
-                  { label: 'OpenAPI Spec', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/openapi.yaml', desc: 'Machine-readable API contract' },
-                  { label: 'Benchmarks', href: 'https://github.com/denizumutdereli/qubicdb/tree/main/benchmarks', desc: 'Biology, reasoning, memory suites' },
-                  { label: 'Contributing', href: 'https://github.com/denizumutdereli/qubicdb/blob/main/CONTRIBUTING.md', desc: 'How to contribute' },
+                  { label: 'API Reference', href: 'https://github.com/qubicDB/docs/blob/main/API.md', desc: 'Full REST + MCP + config docs' },
+                  { label: 'OpenAPI Spec', href: 'https://github.com/qubicDB/qubicdb/blob/main/openapi.yaml', desc: 'Machine-readable API contract' },
+                  { label: 'Benchmarks', href: 'https://github.com/qubicDB/qubicdb/tree/main/benchmarks', desc: 'Biology, reasoning, memory suites' },
+                  { label: 'Contributing', href: 'https://github.com/qubicDB/qubicdb/blob/main/CONTRIBUTING.md', desc: 'How to contribute' },
                 ].map((link) => (
                   <a
                     key={link.label}
@@ -164,7 +164,7 @@ export default function OpenSource() {
               </div>
 
               <a
-                href="https://github.com/denizumutdereli/qubicdb"
+                href="https://github.com/qubicDB/qubicdb"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary w-full justify-center"
