@@ -172,10 +172,10 @@ export default function DocsPage() {
                 <h3 className="text-sm font-semibold text-white mb-1">API Reference</h3>
                 <p className="text-xs text-zinc-500">Full REST + MCP + config docs — all endpoints, parameters, error codes.</p>
               </a>
-              <a href="https://github.com/qubicDB/qubicdb/blob/main/openapi.yaml" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
+              <a href="https://qubicdb.github.io/docs/" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
                 <Code className="w-5 h-5 text-zinc-500 mb-3 group-hover:text-brand-400 transition-colors" />
-                <h3 className="text-sm font-semibold text-white mb-1">OpenAPI Spec</h3>
-                <p className="text-xs text-zinc-500">Machine-readable contract — import into Postman, Insomnia, or Swagger UI.</p>
+                <h3 className="text-sm font-semibold text-white mb-1">Swagger UI</h3>
+                <p className="text-xs text-zinc-500">Interactive API explorer — try every endpoint live in the browser.</p>
               </a>
               <a href="https://github.com/qubicDB/qubicdb/tree/main/cmd/qubicdb-cli" target="_blank" rel="noopener noreferrer" className="group bg-surface-50 border border-zinc-800/80 rounded-xl p-5 hover:border-zinc-700/80 transition-all card-hover">
                 <Terminal className="w-5 h-5 text-zinc-500 mb-3 group-hover:text-brand-400 transition-colors" />
