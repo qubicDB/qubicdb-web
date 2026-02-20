@@ -1,7 +1,6 @@
 'use client'
 
 import AnimatedSection from './AnimatedSection'
-import Image from 'next/image'
 
 export default function DashboardPreview() {
   return (
@@ -27,13 +26,11 @@ export default function DashboardPreview() {
           <div className="relative group">
             <div className="absolute -inset-2 bg-gradient-to-r from-brand-500/10 via-neural-500/10 to-brand-500/10 rounded-3xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity" />
             <div className="relative rounded-2xl overflow-hidden border border-zinc-800/80 shadow-2xl">
-              <Image
-                src="/ui.png"
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="ui.png"
                 alt="QubicDB Console — Brain Inspector"
-                width={1024}
-                height={576}
-                className="w-full h-auto"
-                priority
+                className="w-full h-auto block"
               />
             </div>
           </div>
