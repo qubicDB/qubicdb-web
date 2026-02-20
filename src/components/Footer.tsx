@@ -110,6 +110,7 @@ export default function Footer() {
         <div className="border-t border-zinc-800/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-zinc-600">
             &copy; {new Date().getFullYear()} qubicDB — Open source under MIT License
+            {' · '}Developed by <a href="https://github.com/denizumutdereli" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">Deniz Umut Dereli</a>
           </p>
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2 text-xs text-zinc-600">
