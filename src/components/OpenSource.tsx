@@ -14,7 +14,7 @@ const repos = [
   {
     name: 'qubicdb/qubicdb-ui',
     desc: 'Admin dashboard — React + Vite + TailwindCSS',
-    href: 'https://github.com/qubicDB/qubicdb',
+    href: 'https://github.com/qubicDB/qubicdb-ui',
     lang: 'TypeScript',
     langColor: 'bg-blue-400',
   },
@@ -28,10 +28,15 @@ const sdks = [
 ]
 
 const quickstart = `# Pull and run
-docker run -p 6060:6060 \\
-  -e QUBICDB_ADMIN_ENABLED=true \\
-  -e QUBICDB_ADMIN_PASSWORD=secret \\
-  qubicdb/qubicdb
+docker pull qubicdb/qubicdb:1.0.0
+docker run -d -p 6060:6060 \\
+  -e QUBICDB_ADMIN_USER=admin \\
+  -e QUBICDB_ADMIN_PASSWORD=changeme \\
+  qubicdb/qubicdb:1.0.0
+
+# Admin UI
+docker pull qubicdb/qubicdb-ui:1.0.0
+docker run -d -p 8080:80 qubicdb/qubicdb-ui:1.0.0
 
 # Or build from source
 git clone https://github.com/qubicDB/qubicdb
