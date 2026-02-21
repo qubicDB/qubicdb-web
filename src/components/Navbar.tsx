@@ -154,6 +154,15 @@ export default function Navbar() {
           >
             Get started
           </a>
+          <a
+            href="https://raw.githubusercontent.com/qubicDB/qubicdb/main/llms.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors px-2 py-1"
+            title="LLM-friendly documentation"
+          >
+            llms.txt
+          </a>
         </div>
 
         {/* Mobile Toggle */}
