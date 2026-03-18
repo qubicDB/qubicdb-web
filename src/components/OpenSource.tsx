@@ -28,15 +28,16 @@ const sdks = [
 ]
 
 const quickstart = `# Pull and run
-docker pull qubicdb/qubicdb:1.0.0
+docker pull qubicdb/qubicdb:1.1.0
 docker run -d -p 6060:6060 \\
   -e QUBICDB_ADMIN_USER=admin \\
   -e QUBICDB_ADMIN_PASSWORD=changeme \\
-  qubicdb/qubicdb:1.0.0
+  -e QUBICDB_MCP_ENABLED=true \\
+  qubicdb/qubicdb:1.1.0
 
 # Admin UI
-docker pull qubicdb/qubicdb-ui:1.0.0
-docker run -d -p 8080:80 qubicdb/qubicdb-ui:1.0.0
+docker pull qubicdb/qubicdb-ui:latest
+docker run -d -p 8080:80 qubicdb/qubicdb-ui:latest
 
 # Or build from source
 git clone https://github.com/qubicDB/qubicdb
